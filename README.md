@@ -1,4 +1,4 @@
-# BlueSky Custom Domain Handles Guide
+# Bluesky Custom Domain Handles Guide
 
 ## Table of Contents
 
@@ -20,13 +20,13 @@
   - [Talk With the AT Protocol Domain Handle Service](#talk-with-the-at-protocol-domain-handle-service)
     - [For Domains](#for-domains-1)
     - [For Subdomains](#for-subdomains-2)
-  - [Change Your BlueSky Handle to Your Domain](#change-your-bluesky-handle-to-your-domain)
+  - [Change Your Bluesky Handle to Your Domain](#change-your-bluesky-handle-to-your-domain)
     - [For domains](#for-domains-2)
     - [For Subdomains](#for-subdomains-3)
 
 ## Background
 
-The BlueSky docs<sup>1</sup> were a little unclear to me, so I figured out what I consider to be the easiest way to set up a domain or subdomain handle with the AT Protocol. This method is free and requires minimal technical knowledge.
+The Bluesky docs<sup>1</sup> were a little unclear to me, so I figured out what I consider to be the easiest way to set up a domain or subdomain handle with the AT Protocol. This method is free and requires minimal technical knowledge.
 
 ## Requirements
 
@@ -46,7 +46,7 @@ The BlueSky docs<sup>1</sup> were a little unclear to me, so I figured out what 
 
 #### Create a New Repo
 
-[Create a new repository](https://github.com/new) and name it `YOUR_GITHUB_HANDLE.github.io`, replacing the placeholder with your username. Your GitHub username does not need to match your BlueSky handle, but your GitHub site name does need to include your GitHub handle.
+[Create a new repository](https://github.com/new) and name it `YOUR_GITHUB_HANDLE.github.io`, replacing the placeholder with your username. Your GitHub username does not need to match your Bluesky handle, but your GitHub site name does need to include your GitHub handle.
 
 #### Enable GitHub Pages
 
@@ -65,7 +65,7 @@ The BlueSky docs<sup>1</sup> were a little unclear to me, so I figured out what 
 
 #### Create a Homepage
 
-Create a homepage for your site by adding an `index.html` file. Mine is currently just a blank HTML page that redirects to my BlueSky profile. You can copy the following HTML and insert your domain or subdomain into the `URL` attribute of the bottom-most `<meta>` tag:
+Create a homepage for your site by adding an `index.html` file. Mine is currently just a blank HTML page that redirects to my Bluesky profile. You can copy the following HTML and insert your domain or subdomain into the `URL` attribute of the bottom-most `<meta>` tag:
 
 ```html
 <!DOCTYPE html>
@@ -73,7 +73,7 @@ Create a homepage for your site by adding an `index.html` file. Mine is currentl
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redirecting You To My Cool BlueSky Profile 😎</title>
+    <title>Redirecting You To My Cool Bluesky Profile 😎</title>
     <meta http-equiv="refresh" content="0; URL=https://bsky.app/profile/YOUR_DOMAIN_OR_SUBDOMAIN" />
   </head>
   <body></body>
@@ -90,7 +90,7 @@ To get ready for the following sections, you'll need your Decentralied Identifie
 
 #### For domains
 
-Head over to BlueSky and navigate to `Settings > Change handle`. Click `I have my own domain`. With the `DNS Panel` tab selected, click the `Copy Domain Value` button located at the bottom and paste it somewhere else for safekeeping.
+Head over to Bluesky and navigate to `Settings > Change handle`. Click `I have my own domain`. With the `DNS Panel` tab selected, click the `Copy Domain Value` button located at the bottom and paste it somewhere else for safekeeping.
 
 #### For subdomains
 
@@ -158,11 +158,11 @@ In your registrar's DNS management console for your domain, add the following re
 - In your repo, create a folder called `.well-known`.
 - Inside `.well-known` create a file called `atproto-did`. The contents of this file should be the DID that you obtained by following the instructions in [this section](#obtain-your-at-protocol-did)
 
-### Change Your BlueSky Handle to Your Domain
+### Change Your Bluesky Handle to Your Domain
 
 #### For Domains and Subdomains
 
-Return to BlueSky and navigate to `Settings > Change handle` and click `I have my own domain`.
+Return to Bluesky and navigate to `Settings > Change handle` and click `I have my own domain`.
 
 Enter your desired handle (your domain) in the text field at the top.
 
@@ -194,7 +194,7 @@ If all goes well, you should get a feedback message alerting you that your domai
 
 From there, just click the button that says `Update to YOUR_DOMAIN_OR_SUBDOMAIN`. 
 
-Congrats - your domain name is now your very own custom BlueSky handle! 😊
+Congrats - your domain name is now your very own custom Bluesky handle! 😊
 
 For reference, the GitHub repository you created should at this point mirror the structure of [this example](https://github.com/rosslynratioed/bsky-domain-handles-guide/tree/main/example).
 
@@ -204,7 +204,7 @@ TODO
 
 ## Footnotes
 
-1. You can read the official BlueSky tutorial posted to their blog [here](https://blueskyweb.xyz/blog/4-28-2023-domain-handle-tutorial)
+1. You can read the official Bluesky tutorial posted to their blog [here](https://blueskyweb.xyz/blog/4-28-2023-domain-handle-tutorial)
 2. For a deeper dive into DIDs, you can read the docs [here](https://atproto.com/specs/did)
 3. These instructions are a simplified version of [this section](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) of the GitHub Pages documentation.
 4. These instructions are also a simplified version of [this section](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#using-a-subdomain-for-your-github-pages-site) of the GitHub Pages documentation
