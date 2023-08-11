@@ -156,7 +156,7 @@ In your registrar's DNS management console for your domain, add the following re
 #### For Subdomains
 
 - In your repo, create a folder called `.well-known`.
-- Inside `.well-known` create a file called `atproto-did`. The contents of this file should be the DID that you obtained by following the instructions in [this section](#obtain-your-at-protocol-did)
+- Inside `.well-known` create a file called `atproto-did`. The contents of this file should be the DID that you obtained by following the instructions in [this section](#obtain-your-at-protocol-did).
 
 ### Change Your Bluesky Handle to Your Domain
 
