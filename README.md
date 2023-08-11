@@ -196,7 +196,7 @@ From there, just click the button that says `Update to YOUR_DOMAIN_OR_SUBDOMAIN`
 
 Congrats - your domain name is now your very own custom Bluesky handle! 😊
 
-For reference, the GitHub repository you created should at this point mirror the structure of [this example](https://github.com/rosslynratioed/bsky-domain-handles-guide/tree/main/example).
+For reference, the GitHub repository you created should at this point mirror the structure of [this example](https://github.com/rosslynratioed/bluesky-custom-domain-handles-guide/tree/main/example).
 
 ## Security Considerations
 
