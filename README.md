@@ -167,9 +167,9 @@ Return to Bluesky and navigate to `Settings > Change handle` and click `I have m
 Enter your desired handle (your domain) in the text field at the top.
 
 
-**If you're configuring a domain,** Select the `DNS Panel` tab
+**If you're configuring a domain,** Select the `DNS Panel` tab.
 
-**If you're configuring a subdomain,** Select the `No DNS Panel` tab
+**If you're configuring a subdomain,** Select the `No DNS Panel` tab.
 
 Finally, click `Verify DNS Record` at the bottom of the modal, or the `Verify Text File` button if configuring a subdomain.
 
